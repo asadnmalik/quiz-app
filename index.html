@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer's Quiz!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="" href="style.css">
+</head>
+<body>
+    <!-- This is the top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+                Developer's Quiz
+            </h2>
+        </div>
+    </div>
+
+    <!-- Result Section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container">
+            <p>You are <span class="text-primary display-4 p-3">0%</span> Expert Developer</p>
+        </div>
+    </div>
+
+    <!-- Question Section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">Let's begin!</h2>
+
+            <form class="quiz-form text-light">
+
+                <!-- Question # 1 -->
+                <div class="my-5">
+                    <p class="q1 lead font-weight-normal">1. What is the backbone of all webpages?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">a) HTML</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">b) CSS</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C">
+                        <label class="form-check-label">c) Python</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="D">
+                        <label class="form-check-label">d) Javascript</label>
+                    </div>
+                </div>
+
+                <!-- Question # 2 -->
+                <div class="my-5">
+                    <p class="q2 lead font-weight-normal">2. How do we print something in javascript?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">a) print('something')</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">b) System.out.printIn</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C">
+                        <label class="form-check-label">c) console.log('something')</label>
+                    </div>
+                </div>
+
+                <!-- Question # 3 -->
+                <div class="my-5">
+                    <p class="q3 lead font-weight-normal">3. Can we use .forEach() method on a HTMLCollection?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">No</label>
+                    </div>
+                    
+                </div>
+
+                <!-- Question # 4 -->
+                <div class="my-5">
+                    <p class="q4 lead font-weight-normal">4. What is a Developer's favorite array method?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">a) .reduce()</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" >
+                        <label class="form-check-label">b) .forEach()</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C" >
+                        <label class="form-check-label">c) .find()</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D">
+                        <label class="form-check-label">d) .Slice()</label>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
