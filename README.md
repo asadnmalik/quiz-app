@@ -6,6 +6,8 @@ A very simple template for an online quiz for your websites. You can change the 
 ## Demo
 ![Demo Gif](https://s4.gifyu.com/images/ezgifcom-gif-maker-1.gif)
 
+---
+
 ## Libraries
 * [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
@@ -13,6 +15,7 @@ Just add this block of code inside your HTML file's \<head> tag to get started w
 ```HTML
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 ```
+---
 
 ## How it works?
 Lets take the first question,
@@ -117,4 +120,21 @@ form.addEventListener('submit', e => {
 ```
 
 And the page will be scrolled to result section when it's displayed.
+
+---
+
+## Source Code
+You can download the source code [here.](https://codeload.github.com/asadnmalik/quiz-app/zip/refs/heads/main)
+
+---
+## Built With
+
+* HTML
+* Bootstrap
+* Javascript
+
+---
+
+## Copyright, Author
+*Copyright 2021*, Asad Naveed Malik, *All rights reserved.*
 
