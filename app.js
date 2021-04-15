@@ -24,12 +24,10 @@ form.addEventListener('submit', e => {
 
     // show the result class on submit. 
     result.classList.remove('d-none');
-    //result.querySelector('span').textContent = `${score}%`;
-
     //Scroll to the top. 
     scrollTo(0,0);
 
-    //Try: scroll to a specific element. 
+ 
 
     //Animate the score value: Interval
     let output = 0;
@@ -43,16 +41,6 @@ form.addEventListener('submit', e => {
     }, 10)
 })
 
-// Window object. 
-
-// setTimeout(() => {
-//     alert('hello')
-// }, 3000)
-//delays the function by 3 seconds ==> the function fires after 3 seconds. 
-
-// setInterval(() => {
-//     console.log('hello')
-// }, 100)
 
 // How to stop the setInterval method?
 let i = 0;
@@ -63,3 +51,5 @@ const timer = setInterval(() => {
         clearInterval(timer)
     }
 }, 1000)
+
+
